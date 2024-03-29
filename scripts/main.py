@@ -359,7 +359,7 @@ class Script(scripts.Script):
         super().__init__()
         self.ln_code = "zh_CN"
         self.is_active=True
-        self.is_negative_translate_active=False
+        self.is_negative_translate_active=True
 
     def title(self):
         """Returns the title of the script."""
